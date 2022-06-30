@@ -1,0 +1,117 @@
+20220614	10:02:55	ded121f8-189a-4304-9150-cdaeaca9f611	ReferenceError: username is not defined
+20220614	10:54:29	b4dd6aca-9d43-4922-9269-0f09c03e39e3	ReferenceError: username is not defined
+20220614	11:01:29	5a322749-5dce-48df-a4ab-f55ffef8b0b9	ReferenceError: username is not defined
+20220620	23:49:38	0bd9b778-d3ab-46bd-b777-aa016b4d1111	SyntaxError: Unexpected token } in JSON at position 14
+20220620	23:53:21	9a15e6a9-ec52-4baf-ab08-9d2f8ff387ec	SyntaxError: Unexpected token 
+ in JSON at position 14
+20220621	00:00:53	e1b279ed-d1ac-4a6c-88f5-08469aa613b1	ReferenceError: result is not defined
+20220621	00:01:07	a2016eac-c49f-451b-933c-efcd99133a03	ReferenceError: result is not defined
+20220621	00:01:53	51ec9dd7-ecb7-4132-8cb6-a2858696aadb	ReferenceError: result is not defined
+20220621	00:03:15	4893862d-61f0-4f11-98a0-56ed6c163e22	CastError: Cast to ObjectId failed for value "id:62b0f304f6983deaabbb7f7c" (type string) at path "_id" for model "Category"
+20220621	00:03:26	c8c97a1c-ba26-430e-8259-b9dbc03bb98f	CastError: Cast to ObjectId failed for value ":62b0f304f6983deaabbb7f7c" (type string) at path "_id" for model "Category"
+20220621	00:03:38	3f4e10f4-cdff-43be-84e3-6583664eb5b2	ReferenceError: result is not defined
+20220621	00:04:00	02ca0f64-a2aa-4329-9763-f96a72bd85e9	CastError: Cast to ObjectId failed for value "id:62b0f304f6983deaabbb7f7c" (type string) at path "_id" for model "Category"
+20220621	00:10:04	6ba15eec-cdc7-45fd-94cf-ea688b120cc0	ReferenceError: result is not defined
+20220621	10:09:02	1923366a-f675-413f-8857-8070c531f5d1	SyntaxError: Unexpected token } in JSON at position 43
+20220621	10:09:08	013bde4e-a17e-4220-9c5c-66c4786c09fe	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	10:14:02	09a33df2-c8f3-4590-bb4a-3d7c6c499633	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	10:14:33	08b0db77-e117-4600-bc55-de23a43e0133	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	10:14:40	e4658b84-c3b2-4872-8853-b9e1fa057c5d	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	10:14:52	54af2631-2f4c-4af1-8ee6-21881c0ac8ef	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	10:15:05	ef9ffdcb-9edc-4ab8-9c99-efa3a2cd1c7d	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	10:17:45	2b20225a-813b-4a9a-8f41-8b2a52f5a68a	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	10:18:51	98006c4d-face-4335-a50e-3e2c2fa00929	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	10:18:57	6b5adf1f-f392-4b32-86c3-6b934efd356d	CastError: Cast to ObjectId failed for value "62b0f316f69b7f8" (type string) at path "_id" for model "Category"
+20220621	10:19:31	a8154ad1-a747-4686-8ca0-f0cea009d809	SyntaxError: Unexpected token } in JSON at position 44
+20220621	10:19:51	63b6105d-ceaf-4a46-85a3-5000b6ed603a	SyntaxError: Unexpected token } in JSON at position 44
+20220621	10:20:25	1375c9a9-8c1b-4e6e-893d-fdaab2b95475	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	10:21:07	cf05abfa-a4b8-40d1-8b49-17ba51ff5816	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	10:21:58	6c58878f-8a3e-4e4c-ae6e-72a930e298dd	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	10:23:03	737e21d3-e91d-49c8-8f4a-1a154f9f3ee7	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	11:02:30	20f1b69d-de48-4416-842f-7fcd8736c9ec	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	11:02:37	7049b01c-3143-4b2f-89ef-0ff43fbeb5ab	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	11:06:52	39ccc1c7-e776-434d-bcf2-b40da34aacd4	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	11:07:18	b4f08e72-6fa6-48cc-ad74-8cefc6e2c576	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	11:07:33	0009456a-7e11-4869-80b0-059087847075	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	11:07:46	17994c37-0399-4dd7-aa29-8cc252f32a65	CastError: Cast to ObjectId failed for value "62b0f316f6983deaabbb7f8" (type string) at path "_id" for model "Category"
+20220621	13:47:28	17e48c43-24bf-46b2-9c8e-b0b6a0f9a34f	TypeError: res.status is not a function
+20220621	13:53:03	836e7438-b474-45bc-adfd-e7a47feb26d1	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+20220621	13:55:25	bbbbc10b-ba5c-4ddd-8f78-80c05deb23ed	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+20220621	13:55:35	6404c1c7-3378-449e-b89c-618e65ea64cc	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+20220621	13:55:52	ef835efd-e0a7-4d37-9264-18fdcd5a1f46	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+20220621	13:57:34	6d7e6671-3561-4e6e-821e-ceb59a4b559f	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+20220621	13:57:49	9c5e1617-6d7d-4bfa-bf2f-21e363464f94	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+20220621	14:07:28	510bd9ec-d496-4a3d-a213-2cece65445a7	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+20220621	14:12:08	117cae87-5ba2-48f1-9a15-87139b797c05	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+20220621	14:14:25	077268c6-2c7b-409a-99f2-94bac21a351a	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+20220621	14:14:27	fe8589ab-7f68-4eed-a480-7e94002343de	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+20220621	14:17:42	0dffd4ca-ba3b-4a52-bc83-63a5d2550045	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+20220621	14:21:25	064469cc-83ea-4f81-8ede-d12fe28871d3	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+20220621	14:26:00	ebd8de06-4a38-4a4f-b047-98b4f2709cd0	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+20220621	14:30:05	141457f1-4324-4a54-8922-72d57d3f00ba	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+20220625	09:42:14	e027ecae-8365-4677-9ebe-006b76c35af3	SyntaxError: Unexpected token } in JSON at position 14
+20220625	09:45:11	6eee2fb9-f461-4fa9-90dc-d30818f944bf	ReferenceError: bcrypt is not defined
+20220625	09:46:26	0cdb161c-265e-4204-9686-aadb776b551d	ReferenceError: jwt is not defined
+20220625	10:33:02	dd3771c9-4e76-417f-8de5-bfbd3e509164	ValidationError: User validation failed: roles: Cast to Object failed for value "Admin" (type string) at path "roles"
+20220625	10:34:30	8dcd4d33-635b-492c-84d9-ffc6edf4e88a	ValidationError: User validation failed: roles: Cast to Object failed for value "Admin" (type string) at path "roles"
+20220625	10:40:26	0de9a037-f9f6-4f4e-9674-07e12f25727d	Error: Expected "payload" to be a plain object.
+20220625	10:45:56	df5b4c19-5575-46c9-8395-f05a3b58eedf	TypeError: req.roles.map is not a function
+20220625	11:26:16	94c1109f-c46b-45c2-b610-07651edcd23c	TypeError: req.roles.map is not a function
+20220625	11:26:19	4a982c68-ed49-4b01-9983-422e2f4a8a8d	TypeError: req.roles.map is not a function
+20220625	11:41:07	a5e4f14b-031e-4e05-8a71-97cf3ca374b8	TypeError: Assignment to constant variable.
