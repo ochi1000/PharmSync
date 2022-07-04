@@ -7,6 +7,7 @@ const { logger } = require('./middleware/logEvents');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const { StatusCodes } = require('http-status-codes');
+const form = require('multer');
 
 // connect DB
 dbConnect.connect();
@@ -16,6 +17,9 @@ app.use(cors());
 
 // custom request logger
 app.use(logger);
+
+// for parsing multipart/form-data
+app.use(form().array());
 
 // built in middleware to handle urlencoded data in other words form data
 // content type: application/x-www-form-urlencoded

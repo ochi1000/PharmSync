@@ -6,7 +6,8 @@ const asyncFn = require('../middleware/asynFunction.js');
 
 const handleLogin = asyncFn( async (req, res) =>{
         const{email, password} = req.body;
-        if(!email || !password) return res.status(StatusCodes.UNPROCESSABLE_ENTITY).json({'message': 'Username and Password are required'});
+        return res.json({email, password});
+        if(!email || !password) return res.status(StatusCodes.UNPROCESSABLE_ENTITY).json({'message': 'Email and Password are required'});
         const foundUser = await User.findOne({email});
         if(!foundUser) return res.sendStatus(StatusCodes.UNAUTHORIZED); //Unauthorized
         const validPwd = await bcrypt.compare(password, foundUser.password);
