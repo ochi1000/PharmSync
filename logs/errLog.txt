@@ -115,3 +115,19 @@
 20220625	11:26:16	94c1109f-c46b-45c2-b610-07651edcd23c	TypeError: req.roles.map is not a function
 20220625	11:26:19	4a982c68-ed49-4b01-9983-422e2f4a8a8d	TypeError: req.roles.map is not a function
 20220625	11:41:07	a5e4f14b-031e-4e05-8a71-97cf3ca374b8	TypeError: Assignment to constant variable.
+20220704	12:05:43	4fe03d12-35f1-41ce-9329-8c4ff102af12	TypeError: validateResult is not a function
+20220704	12:14:13	61642484-5c15-47bf-84d8-1c0799756b55	Error: Cannot set headers after they are sent to the client
+20220704	12:14:15	3e24fc32-6c42-4bec-9803-6d3cc39f1ed0	Error: Cannot set headers after they are sent to the client
+20220704	12:14:23	d957ccec-f372-4757-aa4b-fd7d7938cda3	Error: Cannot set headers after they are sent to the client
+20220704	12:23:17	98854861-7569-40b3-95e6-cbf9936dca08	TypeError: errors.map is not a function
+20220704	12:47:31	161461fa-8471-41a7-abfc-582a8e182dbd	TypeError: Cannot read property 'msg' of undefined
+20220704	12:47:37	262b9952-8e06-41b2-8f7c-db14ca9dfff5	TypeError: Cannot read property 'msg' of undefined
+20220704	12:47:40	0dd0ec5a-ce5e-4bf3-8477-192c9dc11d8a	TypeError: Cannot read property 'msg' of undefined
+20220704	12:48:15	c8cdf6d1-5f6a-4027-871b-171518b4deb9	TypeError: Cannot read property 'msg' of undefined
+20220704	12:49:12	3ab9e59b-f921-4d7a-bf7f-ed22a12565cc	Error: Cannot set headers after they are sent to the client
+20220704	12:49:37	955ce504-934b-42a5-9760-d11b8e71e919	TypeError: Cannot read property 'msg' of undefined
+20220704	14:12:34	8c85bc0d-18ed-43b2-9516-46b19d2c9213	Error: Unexpected end of form
+20220704	14:12:39	0549c9cf-3574-403d-93aa-aacfb5792d85	Error: Unexpected end of form
+20220704	14:12:48	9589fa12-eae2-429a-b374-51645ea1463b	Error: Unexpected end of form
+20220704	14:14:17	877eecd1-e6e5-4310-8218-4c2130fe5c40	Error: Unexpected end of form
+20220704	14:20:39	88f647f9-a263-4be3-8fde-eb6ddf8def10	Error: Unexpected end of form
