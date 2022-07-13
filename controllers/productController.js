@@ -2,18 +2,36 @@ const { StatusCodes } = require("http-status-codes");
 const { isValidObjectId } = require("mongoose");
 const asyncFn = require("../middleware/asynFunction");
 const Product = require("../models/Product");
+const cloudinary = require('../config/cloudinary');
+const upload = require("../config/multer");
 
 const createProduct = asyncFn( async(req, res) => {
-    const {name, price, location, categoryId} = req.body;
+    const {name, price, location, category, owner, quantity, description} = req.body;
+    const files = req.files;
     // validate
-    if(!name || !price || !categoryId) return res.status(StatusCodes.BAD_REQUEST).json({"message":"Incomplete fields"});
-    if(!isValidObjectId(categoryId)) return res.status(StatusCodes.BAD_REQUEST).json({"message":"category Id is invalid"});
+    if(!name || !price || !category || !owner) return res.status(StatusCodes.BAD_REQUEST).json({"message":"Incomplete fields"});
+    if(!req.files || !files.length) return res.status(StatusCodes.BAD_REQUEST).json({'message':'Image is required'});
+    if(!isValidObjectId(category)) return res.status(StatusCodes.BAD_REQUEST).json({"message":"category ID is invalid"});    
+    if(!isValidObjectId(owner)) return res.status(StatusCodes.BAD_REQUEST).json({"message":"owner ID is invalid"});    
 
+    let images = [];
+    for(const file of files ){
+        const imagePath = await cloudinary.uploader.upload(file.path);
+        images.push({
+            "public_id": imagePath.public_id,
+            "secure_url": imagePath.secure_url
+        });
+    }
+    // return res.json(images);
     const newProduct = await Product.create({
-        "name":name,
-        "price":price,
-        "location":location,
-        "category": categoryId
+        name,
+        price,
+        category,
+        images,
+        owner,
+        "location": location || null,
+        "quantity": quantity || 1,
+        "description": description || null
     });
     res.status(StatusCodes.CREATED).json({"data":newProduct, "message":"New product created"})
 })
@@ -40,7 +58,8 @@ const getProduct = asyncFn( async(req, res) => {
 });
 
 const updateProduct = asyncFn( async(req, res) => {
-    const{id, name, price, category} = req.body;
+    const {id, name, price, location, category, owner, quantity, description} = req.body;
+    const files = req.files;    
     // validate
     if(!id ) return res.status(StatusCodes.BAD_REQUEST).json({"message": "Product ID is required"});
     if(!isValidObjectId(id) ) return res.status(StatusCodes.BAD_REQUEST).json({"message": "Product ID is invalid"});
@@ -50,12 +69,26 @@ const updateProduct = asyncFn( async(req, res) => {
 
     if(name) product.name = name;
     if(price) product.price = price;
+    if(location) product.location = location;
     if(category && isValidObjectId(category)) product.category = category;
+    if(owner && isValidObjectId(owner)) product.owner = owner;
+    if(quantity) product.quantity = quantity;
+    if(description) product.description = description;
+    if(files){
+        let images = [];
+        for(const file of files ){
+            const imagePath = await cloudinary.uploader.upload(file.path);
+            images.push({
+                "public_id": imagePath.public_id,
+                "secure_url": imagePath.secure_url
+            });
+        }
+        product.images = [product.images, ...images]
+    }
     
     const updatedProduct = await product.save();
 
     res.status(StatusCodes.OK).json({"data":updatedProduct, "message":"Product updated"});
-
 });
 
 const deleteProduct = asyncFn( async( req, res) => {
@@ -72,4 +105,25 @@ const deleteProduct = asyncFn( async( req, res) => {
     res.status(StatusCodes.OK).json({"message":"Product deleted"});
 });
 
-module.exports = {createProduct, getProducts, getProduct, updateProduct, deleteProduct};
+const expireProduct = asyncFn( async(req, res, next) => {
+    // set product validity to false if current date is less than current date
+    // remove next() when testing with route
+    // we do not want product that have one day left from expiry, so we use previous day
+    const today = new Date()
+    const yesterday = new Date(today)
+
+    yesterday.setDate(yesterday.getDate() - 1)
+
+    try {
+        const expired  = await Product.updateMany(
+            {'expiresIn': {'$lte': yesterday}}, 
+            {'$set': {'valid': false}}
+        )
+        res.send(expired);
+        // next();
+    } catch (error) {
+        // next()
+    }
+}) 
+
+module.exports = {createProduct, getProducts, getProduct, updateProduct, deleteProduct, expireProduct};

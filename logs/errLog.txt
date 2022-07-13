@@ -131,3 +131,108 @@
 20220704	14:12:48	9589fa12-eae2-429a-b374-51645ea1463b	Error: Unexpected end of form
 20220704	14:14:17	877eecd1-e6e5-4310-8218-4c2130fe5c40	Error: Unexpected end of form
 20220704	14:20:39	88f647f9-a263-4be3-8fde-eb6ddf8def10	Error: Unexpected end of form
+20220704	17:18:30	61ef6c3f-dc21-4fc1-a68b-cd61706d2e6a	MulterError: Unexpected field
+20220704	17:19:14	823bbdc0-4289-4b6b-87a1-2c0c6710a97d	MulterError: Unexpected field
+20220704	17:19:27	f1b9baa8-065f-440f-b23d-a4a1545ecdf3	MulterError: Unexpected field
+20220705	08:58:13	7e7e281a-235a-4eda-b9e8-e3c8dfe69440	MulterError: Unexpected field
+20220705	08:58:15	bde99f4a-3e7d-4bd5-96b3-c3b47c40b7e8	MulterError: Unexpected field
+20220705	08:58:33	d11f5c66-3bd5-4cda-ba22-6c6c7d795cc5	MulterError: Unexpected field
+20220705	09:00:44	a93ca28c-38bb-49b4-85c5-d3eabb6367cc	MulterError: Unexpected field
+20220705	09:02:09	90ff22d9-5d47-46a8-b45c-958af5e13b49	MulterError: Unexpected field
+20220705	09:02:10	6595c337-5ffc-47dd-b1a1-63ef200caef6	MulterError: Unexpected field
+20220705	09:02:23	756e75f6-d928-442e-b821-30333befc1d1	Error: Unexpected end of form
+20220705	09:02:38	c42cbfd1-cad0-4aa2-ba72-b13d04b427f6	MulterError: Unexpected field
+20220705	10:12:38	e13ca978-5d76-43b1-8e76-40f16e926372	MulterError: Unexpected field
+20220705	10:12:56	1c4fd991-a3bd-420e-9ea5-aafb92edfbb2	MulterError: Unexpected field
+20220705	10:13:24	80757ec8-90e0-40ed-a96c-f01f3471896e	MulterError: Unexpected field
+20220705	10:13:25	6b2b6cae-723f-42ac-a32b-7ec3e9dfa4c7	MulterError: Unexpected field
+20220705	10:32:12	6c326182-2daa-4134-8fc7-4f25003ab272	Error: Unexpected end of form
+20220705	10:32:28	7ee61b3a-5c2f-4520-8a70-71ad8d56c70c	MulterError: Unexpected field
+20220705	10:57:43	957b7df5-8f0c-4b21-aa1b-4ab8595810a8	MulterError: Unexpected field
+20220705	11:06:00	20c0425a-b624-40dc-b2ff-b6a09bff1ca7	MulterError: Unexpected field
+20220705	11:06:04	9cae7e8f-2b9b-49c9-ad4c-ac23860a9c55	Error: Unexpected end of form
+20220705	11:06:10	55c35e83-c815-4780-9276-f0169d64e6ff	MulterError: Unexpected field
+20220705	11:12:35	460b7636-9442-437a-87ed-7201ee5b311f	MulterError: Unexpected field
+20220705	11:19:39	6183e83c-7643-4ecb-9036-b9cf3580eca0	MulterError: Unexpected field
+20220705	11:52:25	15a68472-b6b9-4548-ba31-b035b449efba	MulterError: Unexpected field
+20220705	11:55:24	09d6b442-57da-4bdb-a2cb-f9881979ef97	MulterError: Unexpected field
+20220705	11:58:21	0026043e-4e9d-4285-946a-cc3f479cd529	MulterError: Unexpected field
+20220705	12:07:08	af1c5eae-91d6-4efa-836c-29871f9f5ad8	MulterError: Unexpected field
+20220705	12:11:20	e1cdcfc3-980d-46ff-b2ee-6c06c68f4a21	MulterError: Unexpected field
+20220705	12:11:21	70902663-b2b0-4a22-b7fe-5a51c4b7abc5	MulterError: Unexpected field
+20220705	12:42:23	50a78166-88e4-44d2-9c96-dce740cc8689	MulterError: Unexpected field
+20220705	12:57:20	d68a8dc4-29d5-4469-9860-dbdbab7bb237	TypeError: Cannot read property 'path' of undefined
+20220705	12:58:01	6b34fbef-c364-414d-aa72-b9cea8614514	MulterError: Unexpected field
+20220705	12:59:24	79dda912-c23f-4bb5-b022-8e33ef2b3b07	Error: Unexpected end of form
+20220705	12:59:35	637c0bbf-f138-4f67-bed7-2355b55094b3	Error: Unexpected end of form
+20220705	12:59:46	ebe75ee7-a40c-457e-a5f0-34f12aec331e	Error: Unexpected end of form
+20220705	13:00:06	c07a521e-c4fd-4567-bc67-0b5973bf0386	Error: Unexpected end of form
+20220705	13:00:32	abb0c911-a689-4a9d-80e8-3612b887e03b	Error: Unexpected end of form
+20220705	13:01:20	daefa0ba-29e6-4814-952c-905187b464df	Error: ENOENT: no such file or directory, open 'C:\Users\Zercoms PC\Desktop\node_express\uploads\2022-07-05T12:01:20.282Z_colourpro_quotation_logo1.png'
+20220705	13:01:53	413e1fe0-6b5d-467d-a8ba-7863b3264225	Error: ENOENT: no such file or directory, open 'C:\Users\Zercoms PC\Desktop\node_express\uploads\2022-07-05T12:01:53.876Z_colourpro_quotation_logo1.png'
+20220705	13:04:17	4448b0f7-b9cc-4f2c-9124-19fb1e15a44f	Error: ENOENT: no such file or directory, open 'C:\Users\Zercoms PC\Desktop\node_express\2022-07-05T12:04:17.831Z_colourpro_quotation_logo1.png'
+20220705	13:05:31	2305db9d-8e6e-4ea4-9e9f-4174368a083f	Error: ENOENT: no such file or directory, open 'C:\Users\Zercoms PC\Desktop\node_express\uploads\2022-07-05T12:05:31.672Z_colourpro_quotation_logo1.png'
+20220705	13:06:12	e891bcea-2739-42b9-a9fb-af7ef11d677e	Error: ENOENT: no such file or directory, open 'C:\Users\ZERCOM~1\AppData\Local\Temp\2022-07-05T12:06:12.130Z_colourpro_quotation_logo1.png'
+20220705	13:06:53	2600b322-953a-486f-b4db-6fac3aab3600	Error: ENOENT: no such file or directory, open 'C:\Users\Zercoms PC\Desktop\node_express\uploads\2022-07-05T12:06:53.003Z_colourpro_quotation_logo1.png'
+20220705	13:13:45	5d1827bf-496f-4c3d-b485-58beb79f31ff	Error: ENOENT: no such file or directory, open 'C:\Users\Zercoms PC\Desktop\node_express\uploads\2022-07-05T12:13:45.310Z_colourpro_quotation_logo1.png'
+20220705	13:16:00	46b92d80-a7f9-402a-83c2-b43bb716b09b	Error: ENOENT: no such file or directory, open 'C:\Users\Zercoms PC\Desktop\node_express\uploads\2022-07-05T12:16:00.717Z_colourpro_quotation_logo1.png'
+20220705	13:16:05	1aa048bd-5740-4f79-bc80-57a30e1e302c	Error: ENOENT: no such file or directory, open 'C:\Users\Zercoms PC\Desktop\node_express\uploads\2022-07-05T12:16:05.381Z_colourpro_quotation_logo1.png'
+20220705	13:16:21	e7340af7-6910-40f2-baa0-e8b885e02442	Error: ENOENT: no such file or directory, open 'C:\Users\Zercoms PC\Desktop\node_express\uploads\2022-07-05T12:16:21.090Z_colourpro_quotation_logo1.png'
+20220705	13:17:35	4b6dbcae-cdba-433f-af11-881e303d900e	Error: ENOENT: no such file or directory, open 'C:\Users\Zercoms PC\Desktop\node_express\uploads\2022-07-05T12:17:35.059Z_colourpro_quotation_logo1.png'
+20220705	13:17:58	728aec23-484b-41f0-bc04-9b28e567ff9e	Error: ENOENT: no such file or directory, open 'C:\Users\Zercoms PC\Desktop\node_express\uploads\2022-07-05T12:17:58.866Z_colourpro_quotation_logo1.png'
+20220705	13:21:00	29639a6b-e30a-4d55-a5dc-df84a28f3682	Error: ENOENT: no such file or directory, open 'C:\Users\Zercoms PC\Desktop\node_express\uploads\2022-07-05T12:21:00.504Z_colourpro_quotation_logo1.png'
+20220705	13:21:45	f37d3305-7ef4-4887-aa56-c22f7a4fc911	Error: ENOENT: no such file or directory, open 'C:\Users\Zercoms PC\Desktop\node_express\uploads\2022-07-05T12:21:45.722Z_colourpro_quotation_logo1.png'
+20220705	13:22:35	704787c4-bbd4-45d0-8649-2f238760d4fc	Error: ENOENT: no such file or directory, open 'C:\uploads\2022-07-05T12:22:35.962Z_colourpro_quotation_logo1.png'
+20220705	13:36:35	a252744a-4ea8-4ce2-b6fe-c16875995d10	TypeError: Cannot read property 'path' of undefined
+20220705	13:41:06	5314df5b-6495-4228-8e0f-d5a1e95ddb96	MulterError: Unexpected field
+20220705	13:53:11	31a0a115-a206-4077-baeb-7e5f831fd6b9	TypeError: Cannot read property 'path' of undefined
+20220705	13:53:31	fcf66881-ee23-456b-8f8f-92085c073333	Error: Missing required parameter - file
+20220705	13:54:48	ec2f8d3f-7896-4f04-93f2-877a1f02d92e	TypeError: Cannot read property 'upload' of undefined
+20220705	13:55:11	dc812934-17f7-4a98-a0e7-cbc15cabc004	TypeError: Cannot read property 'path' of undefined
+20220705	13:55:36	cfd29a2d-dc24-4803-bc43-b6553baaf0ae	TypeError: Cannot read property 'path' of undefined
+20220705	13:55:47	1183bcd9-0690-475d-a2ff-e8aa24e04daf	Error: Missing required parameter - file
+20220705	14:08:31	a2b2d464-59b3-4580-8ee2-ce416660e2bb	TypeError: req.files is not iterable
+20220705	14:10:21	4916b1b5-172a-4dd7-bd31-076eb4a73e19	TypeError: undefined is not a function
+20220705	16:21:19	b7888c65-eb6e-4c00-a86d-480edac630ca	ValidationError: Product validation failed: owner: Path `owner` is required.
+20220705	16:43:42	6824e913-4732-4b2c-b2b0-7adfb2b59397	ReferenceError: description is not defined
+20220705	16:45:36	cf5285a3-4ab5-4db2-bb23-3b24d2a95852	ReferenceError: isEmpty is not defined
+20220709	01:36:06	608d540c-295c-4f65-a541-e41fe833472a	ValidationError: Product validation failed: owner: Path `owner` is required.
+20220709	23:36:45	4fe89547-5788-47bc-8a19-d9f7c56e8116	Error: Missing required parameter - file
+20220709	23:41:06	9f3e2369-c5e9-48ab-9342-4eb7d9c8fa5c	Error: Missing required parameter - file
+20220709	23:41:59	fc45ee0c-defa-42dd-a7cd-eccb258b3b8e	Error: Unexpected end of form
+20220709	23:47:59	96ba2cf9-8482-4351-b521-5b3e5c5cef12	ValidationError: Product validation failed: images.1._id: Cast to ObjectId failed for value "[
+  {
+    public_id: 'pz9mllv2emdxk0k7lj0u',
+    secure_url: 'https://res.cloudinary.com/pis-limited/image/upload/v1657406878/pz9mllv2emdxk0k7lj0u.jpg'
+  },
+  {
+    public_id: 'edpg8bxrqnmnmb8yoydz',
+    secure_url: 'https://res.cloudinary.com/pis-limited/image/upload/v1657406879/edpg8bxrqnmnmb8yoydz.png'
+  }
+]" (type Array) at path "_id" because of "BSONTypeError"
+20220710	00:08:31	8d888882-baf2-4986-af22-6cd84d1326ca	MulterError: Unexpected field
+20220710	00:09:14	69a1c2f0-04a1-49c1-b9b4-7450a7c84ac9	MulterError: File too large
+20220710	00:09:39	88b5caf7-f7b7-40be-9a9b-e71b42d98fc0	ReferenceError: cloudinary is not defined
+20220711	01:42:47	5dccbad7-7378-479f-81e0-fb0922d9a1b8	TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+20220711	01:43:34	0a82fa97-ad60-403d-9e3b-0f65312ad76e	TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+20220711	01:45:03	f2268dd1-bf8c-42bd-a04a-f8ff8d8332e7	TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+20220711	01:56:55	bcdf216f-c5ae-4c55-8bf9-515a0485e057	TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+20220711	01:58:10	7b0b6644-3bb1-4d73-9f21-1e9e590d332a	TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+20220711	02:00:25	9a600c26-8998-4350-be3e-a474b8c5cd35	TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+20220711	03:21:21	c5a9a82f-ad37-4f82-b334-a885ee05316f	TypeError: transporter.sendMail is not a function
+20220711	03:24:50	5a85bc54-f505-43e2-8643-ce5bde284d09	TypeError: transporter.sendMail is not a function
+20220711	14:08:27	b88c495c-0d6e-4bf3-a6ff-985084a3e126	TypeError: transporter.send is not a function
+20220711	14:35:08	78fb297e-4ac0-4d50-9b5c-ed56d9225151	Error: Can't send mail - all recipients were rejected: 553 5.1.3 Syntax error in recipient address
+20220711	14:57:55	ebe2ed13-ffab-4846-8c8e-3954a2fbba83	Error: Can't send mail - all recipients were rejected: 553 5.1.3 Syntax error in recipient address
+20220711	15:03:37	938833a1-fb6f-450f-8334-60b85b23a8b4	Error: Can't send mail - all recipients were rejected: 553 5.1.3 Syntax error in recipient address
+20220711	16:16:43	097f7f3b-3832-4fca-86dc-8369a038c791	SyntaxError: Unexpected string in JSON at position 42
+20220713	11:31:06	f34f831b-b3e1-4696-9253-63c4b90e895e	MongooseError: Invalid update pipeline operator: "$match"
+20220713	11:38:06	2e608f9b-e33a-4482-865c-e7174427ab68	MongooseError: Invalid update pipeline operator: "expiresIn"
+20220713	11:43:52	463480fb-89a4-4f65-a34c-8c393b243be4	CastError: Cast to date failed for value "$$NOW" (type string) at path "expiresIn" for model "Product"
+20220713	11:44:44	3c971dd1-5feb-408f-a167-d5bf55dd5f3d	ReferenceError: $$NOW is not defined
+20220713	11:45:44	59a46439-6295-46e3-aec2-d7b2c8dc7202	CastError: Cast to date failed for value "$$NOW" (type string) at path "expiresIn" for model "Product"
+20220713	12:09:28	8dfb330c-34e2-4687-896c-c04d0de4c3eb	ReferenceError: next is not defined
+20220713	13:18:31	3069254c-6cf7-4633-8ec0-1cdf5714fc76	TypeError: startOfYesterday is not a function
+20220713	13:20:25	52761348-af3e-4800-9343-a9cd43ffb7c8	RangeError: Invalid status code: 1657714825770
+20220713	13:21:54	c7cfcc13-93fc-4073-9715-0aae26ec69e0	TypeError: 1 argument required, but only 0 present
+20220713	13:23:15	574f71a5-f54c-40fb-b1b9-bfa75e9520d0	TypeError: startOfYesterday is not a function

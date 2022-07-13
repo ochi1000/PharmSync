@@ -3,7 +3,7 @@ const {logEvents} = require("./logEvents");
 
 const errorHandler = function (err, req, res, next){
     logEvents(`${err.name}: ${err.message}`, 'errLog.txt');
-    res.status(StatusCodes.INTERNAL_SERVER_ERROR).send(`${err.name}: ${err.message}`);
+    res.status(StatusCodes.INTERNAL_SERVER_ERROR).send(`${err.name}: ${err.stack}`);
 }
 
 // const errorHandler = (error, request, response, next) => {
